@@ -1,0 +1,23 @@
+{
+  "name": "turbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_lodash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/trainingGitHub248/turbo.git",
+  "author": "trainingGitHub248 <irshadahmed248@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trainingGitHub248/turbo/issues"
+  },
+  "homepage": "https://github.com/trainingGitHub248/turbo#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "validator": "^11.1.0"
+  }
+}
