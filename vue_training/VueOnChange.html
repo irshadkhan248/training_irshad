@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>VueJs OnChange</title>
+    <!-- <script type="text/javascript" src="js/vue.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+
+</head>
+
+<body>
+    <div id="databinding">
+        <div v-bind:style="styleObj" v-on:mouseover="changeBgColor" v-on:mouseout="originalColor"></div>
+    </div>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '#databinding',
+            data: {
+                num1: 100,
+                num2: 200,
+                total: '',
+                styleObj: {
+                    width: "100px",
+                    height: "100px",
+                    backgroundColor: "royalBlue"
+                }
+            },
+            methods: {
+                changeBgColor: function () {
+                    this.styleObj.backgroundColor = "steelBlue";
+                },
+                originalColor: function () {
+                    this.styleObj.backgroundColor = "royalBlue";
+                }
+            },
+        });
+    </script>
+</body>
+
+</html>

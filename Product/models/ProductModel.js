@@ -6,7 +6,7 @@ import {
     createBrotliCompress
 } from "zlib"
 import Products from "../mongooseModel/Products"
-
+import axios from "axios";
 export default {
     /**
      * This function adds one to its input.
@@ -47,7 +47,7 @@ export default {
                         _id: 0
                     }).exec(callback)
                 },
-                Category: function (callback) {
+                Category: function (callback) { 
                     Category.find({}, {
                         name: 1,
                         _id: 0
@@ -209,7 +209,7 @@ export default {
                         // console.log(order)
                     })
                 },
-                AsyncEveryDemo: (callback) => {
+                AsyncEveryDemo: (callback) => { 
                     var newArray = []
                     var obj = Products.find({}, {
                         name: 1,

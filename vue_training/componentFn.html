@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>VueJs Introduction</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+    <!-- <script type = "text/javascript" src = "js/vue.js"></script> -->
+</head>
+
+<body>
+    <script type="text/javascript">
+        var _obj = {
+            fName: "Raj",
+            lname: "Singh"
+        };
+
+        // direct instance creation
+        var vm = new Vue({
+            data: _obj
+        });
+        console.log(vm.fName);
+        console.log(vm.$data);
+        console.log(vm.$data.fName);
+
+        // must use function when in Vue.extend()
+        var Component = Vue.extend({
+            data: function () {
+                return _obj
+            }
+        });
+        var myComponentInstance = new Component();
+        console.log("myComponentInstance", myComponentInstance.lname);
+        console.log("myComponentInstance", myComponentInstance.$data);
+    </script>
+
+</body>
+
+</html>

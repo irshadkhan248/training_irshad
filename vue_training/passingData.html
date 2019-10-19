@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>VueJs Introduction</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var _obj = {
+            fname: "Raj",
+            lname: "Singh"
+        }
+
+        // direct instance creation
+        var vm = new Vue({
+            data: _obj
+        });
+        console.log(vm.fname);
+        console.log(vm.$data);
+        console.log(vm.$data.fname);
+        console.log(vm.lname);
+    </script>
+</body>
+
+</html>
