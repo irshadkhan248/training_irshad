@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>VueJs Instance APICalling</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+</head>
+
+<body>
+    <div id="computed_props">
+        <html>
+
+        <head>
+            <style>
+                table {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                td,
+                th {
+                    border: 1px solid #000000;
+                    text-align: left;
+                    padding: 8px;
+                }
+
+                tr:nth-child(even) {
+                    background-color: hsl(187, 85%, 82%);
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <h2>Product Table</h2>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Ingredients</th>
+
+
+
+                </tr>
+
+                <tr v-for="product in data1" :key="product">
+                    <td>{{product.name}}</td>
+                    <td>{{product.price}}</td>
+
+                    <td>{{product.ingredients}}</td>
+                </tr>
+            </table>
+            <!-- <p>data: {{data1}}</p> -->
+        </body>
+
+        </html>
+    </div>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: "#computed_props",
+            data: {
+                data1: ""
+            },
+            methods: {},
+            created() {
+                console.log("inside created method")
+                fetch("http://localhost:3000/product/searchAll").then(
+                    (response) => {
+                        response.json().then((data) => {
+                            console.log(">>>>>>>>>>>>>>>>>>>>", data)
+                            // data.forEach((element) => {
+                            //     console.log("Data:" + element.name)
+                            this.data1 = data
+                        })
+
+                    })
+            }
+
+
+        })
+    </script>
+</body>
+
+</html>

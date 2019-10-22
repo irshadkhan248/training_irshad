@@ -47,7 +47,7 @@ export default {
                         _id: 0
                     }).exec(callback)
                 },
-                Category: function (callback) { 
+                Category: function (callback) {
                     Category.find({}, {
                         name: 1,
                         _id: 0
@@ -124,7 +124,6 @@ export default {
                 concat: (callback) => {
                     async.concat(
                         Products.find(),
-                        // body,
                         (val, next) => {
                             // console.log("ConcatVal", val)
                             next(null, val.name)
@@ -209,7 +208,7 @@ export default {
                         // console.log(order)
                     })
                 },
-                AsyncEveryDemo: (callback) => { 
+                AsyncEveryDemo: (callback) => {
                     var newArray = []
                     var obj = Products.find({}, {
                         name: 1,
@@ -241,8 +240,7 @@ export default {
                     }
                     async.filter(obj, iterator, function (err, res) {
                         callback(null, res)
-                        // console.log(res)
-                        //console.log(order);
+
                     })
                 }
             },

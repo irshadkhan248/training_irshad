@@ -16,7 +16,7 @@ router.get("/getOneById/:id", (req, res) => {
 
 router.post("/def/searchByExactName/:name", (req, res) => {
     ProductModel.searchByExactName(req.params, res.callback)
-    //console.log("req.query:::::::",req.params)
+        
 })
 
 router.post("/abc/searchNameUsingAlphabetSequence/:name", (req, res) => {
