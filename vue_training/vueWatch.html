@@ -12,18 +12,14 @@
         Meters : <input type="text" v-model="meters">
     </div>
     <script type="text/javascript">
+        var navigation = import("")
         var vm = new Vue({
             el: '#computed_props',
             data: {
-                kilometers: 5,
+                kilometers: 0,
                 meters: 0
             },
-            methods: {
 
-            },
-            created() {
-                console.log("in computed")
-            },
             watch: {
                 kilometers: function (val) {
                     this.kilometers = val;
