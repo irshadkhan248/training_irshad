@@ -1,0 +1,46 @@
+[2019-10-24 10:26:39.543] [exthost] [info] extension host started
+[2019-10-24 10:26:39.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-24 10:26:39.559] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-24 10:26:39.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-24 10:26:39.562] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-24 10:26:39.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-24 10:26:39.585] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-24 10:26:39.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-24 10:26:39.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-24 10:26:39.630] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-10-24 10:26:39.630] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-10-24 10:26:39.647] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-10-24 10:26:39.647] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-10-24 10:26:39.737] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-10-24 10:26:39.737] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-10-24 10:26:39.757] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-10-24 10:26:39.757] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.2/out/src/main
+[2019-10-24 10:26:39.852] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-10-24 10:26:39.852] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-24 10:26:39.880] [exthost] [info] eager extensions activated
+[2019-10-24 10:26:39.932] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-24 10:26:39.932] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-10-24 10:26:45.681] [exthost] [info] extension host started
+[2019-10-24 10:26:45.689] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-24 10:26:45.689] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-24 10:26:45.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-24 10:26:45.692] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-24 10:26:45.713] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-24 10:26:45.713] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-24 10:26:45.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-24 10:26:45.756] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-24 10:26:45.759] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-10-24 10:26:45.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-10-24 10:26:45.776] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-10-24 10:26:45.776] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-10-24 10:26:45.864] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-10-24 10:26:45.864] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-10-24 10:26:45.884] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-10-24 10:26:45.884] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.2/out/src/main
+[2019-10-24 10:26:45.985] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-10-24 10:26:45.985] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-24 10:26:46.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-10-24 10:26:46.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2019-10-24 10:26:46.083] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-24 10:26:46.083] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-10-24 10:26:46.151] [exthost] [info] eager extensions activated

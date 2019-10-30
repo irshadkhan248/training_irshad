@@ -1,7 +1,8 @@
+/* eslint-disable no-console */
 import ProductModel from "../models/ProductModel"
-import {
-    runInContext
-} from "vm"
+// import {
+//     runInContext
+// } from "vm"
 
 const router = Router()
 
@@ -16,7 +17,6 @@ router.get("/getOneById/:id", (req, res) => {
 
 router.post("/def/searchByExactName/:name", (req, res) => {
     ProductModel.searchByExactName(req.params, res.callback)
-        
 })
 
 router.post("/abc/searchNameUsingAlphabetSequence/:name", (req, res) => {
@@ -31,6 +31,7 @@ router.post("/", (req, res) => {
 router.put("/:id", (req, res) => {
     ProductModel.updateProduct(req.params, req.body, res.callback)
 })
+
 //res.send(`Update For Id ${req.params.id}`)
 
 // router.patch("/:id", (req, res) => {
@@ -38,8 +39,10 @@ router.put("/:id", (req, res) => {
 // })
 
 router.delete("/:id", (req, res) => {
+    // console.log("asjbjajfba++++++++++++++++++")
     ProductModel.deleteProduct(req.params, res.callback)
 })
+
 router.get("/waterfallAPI", (req, res) => {
     ProductModel.waterfallAPI(req.body, res.callback)
 })
@@ -83,5 +86,10 @@ router.get("/AsyncEveryDemo", (req, res) => {
 
 router.get("/AsyncFilterDemo", (req, res) => {
     ProductModel.AsyncFilterDemo(req.query, res.callback)
+})
+
+router.delete("/Delicious/Delete/abc", (req, res) => {
+    // console.log("yoyo")
+    ProductModel.DeliciousDelete(req.query, res.callback)
 })
 export default router

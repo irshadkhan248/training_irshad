@@ -1,3 +1,6 @@
+/* eslint-disable no-console */
+/* eslint-disable indent */
+/* eslint-disable quotes */
 import Category from "../mongooseModel/Category"
 import {
     compileFunction
@@ -280,6 +283,14 @@ export default {
     },
 
     searchAll: (_query, callback) => {
+        // console.log("in searchALL Model")
         Products.find().exec(callback)
+    },
+
+    DeliciousDelete: (_query, callback) => {
+        // console.log("")
+        Products.deleteMany({
+            name: 'Delicious'
+        }).exec(callback)
     }
 }

@@ -1,0 +1,10 @@
+[2019-10-30 10:06:13.661] [sharedprocess] [info] main {"machineId":"2de2bb9d67651b7ce4530cbc438e38cadf5aea23b9c61ebc8b125d0a70f9c692","windowId":2}
+[2019-10-30 10:06:14.379] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-debug /home/wohlig/.vscode/extensions/vscjava.vscode-java-debug-0.22.0
+[2019-10-30 10:06:14.573] [sharedprocess] [info] Deleted from disk knisterpeter.vscode-github /home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.2
+[2019-10-30 10:06:53.666] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-30 10:30:30.211] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2019-10-30 10:30:30.749] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/55508141-ef78-4798-8899-8c2da0dae350
+[2019-10-30 10:30:30.810] [sharedprocess] [info] Extracted extension to /home/wohlig/.vscode/extensions/.dbaeumer.vscode-eslint-1.9.1: dbaeumer.vscode-eslint
+[2019-10-30 10:30:30.811] [sharedprocess] [info] Renamed to /home/wohlig/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1
+[2019-10-30 10:30:30.812] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2019-10-30 10:30:30.856] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint

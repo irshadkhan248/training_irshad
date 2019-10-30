@@ -1,0 +1,24 @@
+Loaded bundled typescript@3.6.3.
+Vetur initialized
+[Error - 3:37:09 PM] Request textDocument/signatureHelp failed.
+  Message: Request textDocument/signatureHelp failed with message: Cannot read property 'emitNode' of undefined
+  Code: -32603 
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 3:40:27 PM] Unexpected token, expected "," (13:13)
+  11 |   },
+  12 |   methods: {
+> 13 |      console.log("inside methods");
+     |             ^
+  14 |    axios.post("http://localhost:3000/Product/") 
+  15 |   },
+  16 |   created() {
+Prettier format failed
+[Error - 3:40:32 PM] Unexpected token, expected "," (13:13)
+  11 |   },
+  12 |   methods: {
+> 13 |      console.log("inside methods");
+     |             ^
+  14 |    axios.post("http://localhost:3000/Product/") 
+  15 |   },
+  16 |   created() {

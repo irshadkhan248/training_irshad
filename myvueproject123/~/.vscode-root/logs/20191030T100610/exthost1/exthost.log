@@ -1,0 +1,60 @@
+[2019-10-30 10:06:12.416] [exthost] [info] extension host started
+[2019-10-30 10:06:12.429] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-30 10:06:12.429] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-30 10:06:12.432] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-30 10:06:12.432] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-30 10:06:12.453] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-30 10:06:12.453] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-30 10:06:12.494] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-30 10:06:12.494] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-30 10:06:12.497] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-10-30 10:06:12.497] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-10-30 10:06:12.514] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-10-30 10:06:12.514] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-10-30 10:06:12.601] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-10-30 10:06:12.601] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-10-30 10:06:12.620] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-10-30 10:06:12.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.3/out/src/main
+[2019-10-30 10:06:12.714] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-10-30 10:06:12.715] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-30 10:06:12.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-10-30 10:06:12.743] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2019-10-30 10:06:12.811] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-30 10:06:12.811] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-10-30 10:06:12.955] [exthost] [info] eager extensions activated
+[2019-10-30 10:06:42.988] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur {"startup":false,"extensionId":{"value":"octref.vetur","_lower":"octref.vetur"},"activationEvent":"onLanguage:vue"}
+[2019-10-30 10:06:42.988] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/octref.vetur-0.22.6/dist/client/vueMain
+[2019-10-30 10:06:53.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2019-10-30 10:06:53.217] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-10-30 10:06:53.245] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:javascript"}
+[2019-10-30 10:06:53.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0/out/src/extension
+[2019-10-30 10:06:53.261] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:javascript"}
+[2019-10-30 10:06:53.261] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode
+[2019-10-30 10:22:41.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2019-10-30 10:22:41.190] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-10-30 10:29:13.358] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2019-10-30 10:29:13.358] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-10-30 10:29:13.482] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2019-10-30 10:29:13.482] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-10-30 10:30:31.035] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2019-10-30 10:30:31.035] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-10-30 14:12:04.586] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2019-10-30 14:12:04.586] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2019-10-30 14:12:04.615] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-debug","_lower":"vscjava.vscode-java-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2019-10-30 14:12:04.615] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/vscjava.vscode-java-debug-0.23.0/dist/extension
+[2019-10-30 14:12:04.653] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2019-10-30 14:12:04.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.node-debug/dist/extension.js
+[2019-10-30 14:12:04.776] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker {"startup":false,"extensionId":{"value":"ms-azuretools.vscode-docker","_lower":"ms-azuretools.vscode-docker"},"activationEvent":"onDebugInitialConfigurations"}
+[2019-10-30 14:12:04.776] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/ms-azuretools.vscode-docker-0.8.1/main
+[2019-10-30 14:12:39.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2019-10-30 14:12:39.736] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2019-10-30 17:06:20.453] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-30 17:06:20.454] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.6/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.6/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.6/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.6/node_modules/vscode-languageclient/lib/client.js:1005:62)

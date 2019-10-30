@@ -1,0 +1,66 @@
+Loaded bundled typescript@3.6.3.
+Vetur initialized
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 11:26:12 AM] Unexpected token, expected "," (10:22)
+   8 |     return {
+   9 |       id: 0,
+> 10 |       product_Arr: [];
+     |                      ^
+  11 |     };
+  12 |   },
+  13 |   created() {
+Prettier format failed
+[Error - 11:35:54 AM] Unexpected token (18:7)
+  16 |     axios
+  17 |       .get("http://localhost:3000/Product/getOneById/" + this.id);
+> 18 |       .then(response => {
+     |       ^
+  19 |         console.log(response.data.name);
+  20 |         this.product_Arr = response.data;
+  21 |       })
+Prettier format failed
+[Error - 11:35:55 AM] Unexpected token (18:7)
+  16 |     axios
+  17 |       .get("http://localhost:3000/Product/getOneById/" + this.id);
+> 18 |       .then(response => {
+     |       ^
+  19 |         console.log(response.data.name);
+  20 |         this.product_Arr = response.data;
+  21 |       })
+Prettier format failed
+[Error - 11:35:55 AM] Unexpected token (18:7)
+  16 |     axios
+  17 |       .get("http://localhost:3000/Product/getOneById/" + this.id);
+> 18 |       .then(response => {
+     |       ^
+  19 |         console.log(response.data.name);
+  20 |         this.product_Arr = response.data;
+  21 |       })
+Prettier format failed
+[Error - 11:35:55 AM] Unexpected token (18:7)
+  16 |     axios
+  17 |       .get("http://localhost:3000/Product/getOneById/" + this.id);
+> 18 |       .then(response => {
+     |       ^
+  19 |         console.log(response.data.name);
+  20 |         this.product_Arr = response.data;
+  21 |       })
+Prettier format failed
+[Error - 11:35:55 AM] Unexpected token (18:7)
+  16 |     axios
+  17 |       .get("http://localhost:3000/Product/getOneById/" + this.id);
+> 18 |       .then(response => {
+     |       ^
+  19 |         console.log(response.data.name);
+  20 |         this.product_Arr = response.data;
+  21 |       })
+Prettier format failed
+[Error - 2:58:27 PM] Unexpected token, expected ";" (15:80)
+  13 |   created() {
+  14 |     // console.log("in created::::::::");
+> 15 |     axios.get("http://localhost:3000/product/searchAll").then(response => {npm install vue-js-modal --save
+     |                                                                                ^
+  16 |       this.data1 = response.data;
+  17 |     });
+  18 |   },

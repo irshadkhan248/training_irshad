@@ -1,0 +1,160 @@
+[2019-10-23 15:12:34.456] [exthost] [info] extension host started
+[2019-10-23 15:12:34.475] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-23 15:12:34.476] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-23 15:12:34.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-23 15:12:34.479] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-23 15:12:34.501] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-23 15:12:34.501] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-23 15:12:34.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-23 15:12:34.544] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-23 15:12:34.546] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-10-23 15:12:34.546] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-10-23 15:12:34.563] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-10-23 15:12:34.563] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-10-23 15:12:34.653] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-10-23 15:12:34.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-10-23 15:12:34.674] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-10-23 15:12:34.674] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.2/out/src/main
+[2019-10-23 15:12:34.769] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-10-23 15:12:34.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-23 15:12:34.797] [exthost] [info] eager extensions activated
+[2019-10-23 15:12:34.852] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-23 15:12:34.852] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-10-23 15:13:01.166] [exthost] [info] extension host started
+[2019-10-23 15:13:01.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-23 15:13:01.174] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-23 15:13:01.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-23 15:13:01.178] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-23 15:13:01.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-23 15:13:01.199] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-23 15:13:01.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-23 15:13:01.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-23 15:13:01.245] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-10-23 15:13:01.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-10-23 15:13:01.262] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-10-23 15:13:01.262] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-10-23 15:13:01.353] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-10-23 15:13:01.353] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-10-23 15:13:01.373] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-10-23 15:13:01.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.2/out/src/main
+[2019-10-23 15:13:01.468] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-10-23 15:13:01.468] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-23 15:13:01.499] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-10-23 15:13:01.499] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2019-10-23 15:13:01.570] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-10-23 15:13:01.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-10-23 15:13:01.691] [exthost] [info] eager extensions activated
+[2019-10-23 15:13:07.844] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur {"startup":false,"extensionId":{"value":"octref.vetur","_lower":"octref.vetur"},"activationEvent":"onLanguage:vue"}
+[2019-10-23 15:13:07.844] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/octref.vetur-0.22.5/dist/client/vueMain
+[2019-10-23 15:25:14.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2019-10-23 15:25:14.588] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-10-23 15:25:14.604] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2019-10-23 15:25:14.604] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-10-23 15:25:14.637] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:typescript"}
+[2019-10-23 15:25:14.637] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0/out/src/extension
+[2019-10-23 15:25:14.654] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:typescript"}
+[2019-10-23 15:25:14.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode
+[2019-10-23 15:25:14.824] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2019-10-23 15:25:14.824] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-10-23 15:25:14.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2019-10-23 15:25:14.833] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-10-23 16:03:05.460] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:03:05.461] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 16:03:14.680] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:03:14.680] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 16:18:10.368] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:18:10.368] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 16:18:15.358] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:18:15.358] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 16:18:55.845] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:18:55.845] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 16:19:02.150] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 16:19:02.150] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 17:29:06.064] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 17:29:06.064] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 17:29:13.991] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 17:29:13.991] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 17:54:46.520] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 17:54:46.520] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)
+[2019-10-23 17:54:56.226] [exthost] [error] [octref.vetur] provider FAILED
+[2019-10-23 17:54:56.226] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:528)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:477)
+	at new y (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:343:392)
+	at asSymbolInformation (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:411:22)
+	at values.map.information (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:42)
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/protocolConverter.js:400:23)
+	at client.sendRequest.then (/home/wohlig/.vscode/extensions/octref.vetur-0.22.5/node_modules/vscode-languageclient/lib/client.js:1005:62)

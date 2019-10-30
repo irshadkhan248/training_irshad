@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 
 var schema = new Schema({
     name:String,
@@ -10,6 +11,6 @@ var schema = new Schema({
     category: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Category'
-    },
+    }, 
 })
 export default mongoose.model("products", schema)
