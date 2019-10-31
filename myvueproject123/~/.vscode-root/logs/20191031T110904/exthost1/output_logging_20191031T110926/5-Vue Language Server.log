@@ -1,0 +1,102 @@
+Loaded bundled typescript@3.6.3.
+Vetur initialized
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Prettier format failed
+[Error - 4:50:37 PM] Unexpected token, expected ";" (4:16)
+  2 | export default {
+  3 |     data(){
+> 4 |         returen{
+    |                ^
+  5 |             
+  6 |         }
+  7 |     }
+Prettier format failed
+[Error - 4:50:37 PM] Unexpected token, expected ";" (4:16)
+  2 | export default {
+  3 |     data(){
+> 4 |         returen{
+    |                ^
+  5 |             
+  6 |         }
+  7 |     }
+Prettier format failed
+[Error - 4:53:05 PM] Unexpected token, expected "," (10:13)
+   8 | // delete process throw components
+   9 | export default {
+> 10 |   components{
+     |             ^
+  11 |     modal
+  12 |   }
+  13 |   data() {
+Prettier format failed
+[Error - 4:53:06 PM] Unexpected token, expected "," (10:13)
+   8 | // delete process throw components
+   9 | export default {
+> 10 |   components{
+     |             ^
+  11 |     modal
+  12 |   }
+  13 |   data() {
+Prettier format failed
+[Error - 4:53:23 PM] Unexpected token, expected "," (13:3)
+  11 |     modal
+  12 |   }
+> 13 |   data() {
+     |   ^
+  14 |     return {
+  15 |       data1: "",
+  16 |       productData: { name: "", price: "", ingredients: "" },
+Prettier format failed
+[Error - 5:24:53 PM] null is a reserved word (4:13)
+  2 | export default {
+  3 |   data() {
+> 4 |     return {null
+    |             ^
+  5 |     };
+  6 |   },
+  7 |   props: {
+Prettier format failed
+[Error - 5:24:53 PM] null is a reserved word (4:13)
+  2 | export default {
+  3 |   data() {
+> 4 |     return {null
+    |             ^
+  5 |     };
+  6 |   },
+  7 |   props: {
+Prettier format failed
+[Error - 5:24:54 PM] null is a reserved word (4:13)
+  2 | export default {
+  3 |   data() {
+> 4 |     return {null
+    |             ^
+  5 |     };
+  6 |   },
+  7 |   props: {
+Prettier format failed
+[Error - 5:24:56 PM] null is a reserved word (4:13)
+  2 | export default {
+  3 |   data() {
+> 4 |     return {null
+    |             ^
+  5 |     };
+  6 |   },
+  7 |   props: {
+Prettier format failed
+[Error - 6:29:29 PM] Unexpected token, expected "," (53:5)
+  51 |         });
+  52 |     }
+> 53 |     show(id) {
+     |     ^
+  54 |       this.deletingId = id;
+  55 |       this.$modal.show("hello-world", { id: id });
+  56 |     },
+Prettier format failed
+[Error - 6:29:29 PM] Unexpected token, expected "," (53:5)
+  51 |         });
+  52 |     }
+> 53 |     show(id) {
+     |     ^
+  54 |       this.deletingId = id;
+  55 |       this.$modal.show("hello-world", { id: id });
+  56 |     },

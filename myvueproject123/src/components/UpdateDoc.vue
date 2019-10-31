@@ -44,6 +44,7 @@ export default {
         console.log(error);
       });
   },
+
   methods: {
     UpdateData(product_Arr) {
       console.log("UpdateData of UpdateDoc:  " + this.id);

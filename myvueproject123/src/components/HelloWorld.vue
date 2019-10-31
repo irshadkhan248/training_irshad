@@ -12,12 +12,11 @@
     <button v-on:click="insertData()">INSERT DOCUMENT</button>
     <table>
       <tr>
-        <th>Name</th>
-        <th>Price</th>
-        <th>Ingredients</th>
-        <th>Action</th>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>INGREDIENTS</th>
+        <th>ACTION</th>
       </tr>
-
       <tr v-for="(pro, idx) in data1" :key="idx">
         <td>{{ pro.name }}</td>
         <td>{{ pro.price }}</td>
@@ -27,26 +26,25 @@
           <router-link :to="{ name: 'HelloWorld-aboutUs', params: { id: pro._id } }">
             <button>Edit</button>
           </router-link>
-          <!-- <router-link :to="{ name: 'HelloWorld-aboutUs', params: { id:pro._id}}">Edit </router-link> -->
         </td>
       </tr>
     </table>
-    <modal name="hello-world" @before-open="beforeOpen">
-      <h2>you sure want to delete?</h2>
-      <button v-on:click="deleteData(deletingId)">Delete</button>
-      <button v-on:click="hide">cancel</button>
-    </modal>
+    <modal :message="deletingId" />
   </div>
 </template>
 
 <script>
 /* eslint-disable*/
 import axios from "axios";
+import modal from "../components/deleteModal.vue";
 import Vue from "vue";
 import VModal from "vue-js-modal";
 Vue.use(VModal);
-
+// delete process throw components
 export default {
+  components: {
+    modal
+  },
   data() {
     return {
       data1: "",
@@ -61,21 +59,6 @@ export default {
     });
   },
   methods: {
-    deleteData(id) {
-      console.log("id of deleting item.<<<<<<<<<<<<<<<<<<", id);
-      // var result = confirm("are you sure want to delete?");
-      // if (result) {
-      axios
-        .delete("http://localhost:3000/product/" + id)
-        .then(response => {
-          window.location.reload(true);
-          // console.log(response)
-        })
-        .catch(error => {
-          console.log(error);
-        });
-      // }
-    },
     insertData() {
       axios
         .post("http://localhost:3000/product/", this.productData)
@@ -88,15 +71,9 @@ export default {
         });
     },
     show(id) {
+      this.deletingId = id;
       this.$modal.show("hello-world", { id: id });
-    },
-    hide() {
-      this.$modal.hide("hello-world");
-    },
-    beforeOpen(event) {
-      this.deletingId = event.params.id;
-      console.log(event.params.id);
-    }  
+    }
   }
 };
 </script>
