@@ -10,6 +10,7 @@
     <input type="text" placeholder="Ingredients" v-model="productData.ingredients" />
     <br />
     <button v-on:click="insertData()">INSERT DOCUMENT</button>
+    <!-- <button v-on:click="toaster()">TOAST</button> -->
     <table>
       <tr>
         <th>NAME</th>
@@ -40,7 +41,11 @@ import modal from "../components/deleteModal.vue";
 import Vue from "vue";
 import VModal from "vue-js-modal";
 Vue.use(VModal);
+import Vuelidate from "vuelidate";
+Vue.use(Vuelidate);
 // delete process throw components
+import { required, minLength, between } from "vuelidate/lib/validators";
+
 export default {
   components: {
     modal
@@ -73,24 +78,35 @@ export default {
     show(id) {
       this.deletingId = id;
       this.$modal.show("hello-world", { id: id });
+    },
+    deleteData(id) {
+      console.log("id of deleting item.<<<<<<<<<<<<<<<<<<", id);
+      // var result = confirm("are you sure want to delete?");
+      // if (result) {
+      axios
+        .delete("http://localhost:3000/product/" + id)
+        .then(response => {
+          window.location.reload(true);
+          // console.log(response)
+        })
+        .catch(error => {
+          console.log(error);
+        });
+      // }
     }
-  ,
-  deleteData(id) {
-    console.log("id of deleting item.<<<<<<<<<<<<<<<<<<", id);
-    // var result = confirm("are you sure want to delete?");
-    // if (result) {
-    axios
-      .delete("http://localhost:3000/product/" + id)
-      .then(response => {
-        window.location.reload(true);
-        // console.log(response)
-      })
-      .catch(error => {
-        console.log(error);
-      });
-    // }
+  },
+  validations: {
+    name: {
+      required,
+      minLength: minLength(2)
+    },
+    price: {
+      between: between(1, 5000)
+    },
+    ingredients: {
+      required
+    }
   }
-}
 };
 </script>
 
