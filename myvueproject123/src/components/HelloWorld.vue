@@ -29,7 +29,7 @@
         </td>
       </tr>
     </table>
-    <modal :message="deletingId" />
+    <modal :message="deletingId" v-on:messageFromChild="deleteData" />
   </div>
 </template>
 
@@ -74,7 +74,23 @@ export default {
       this.deletingId = id;
       this.$modal.show("hello-world", { id: id });
     }
+  ,
+  deleteData(id) {
+    console.log("id of deleting item.<<<<<<<<<<<<<<<<<<", id);
+    // var result = confirm("are you sure want to delete?");
+    // if (result) {
+    axios
+      .delete("http://localhost:3000/product/" + id)
+      .then(response => {
+        window.location.reload(true);
+        // console.log(response)
+      })
+      .catch(error => {
+        console.log(error);
+      });
+    // }
   }
+}
 };
 </script>
 
@@ -84,17 +100,21 @@ h1,
 h2 {
   font-weight: normal;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #21fcf1;
 }
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -112,5 +132,3 @@ tr:nth-child(even) {
   background-color: hsla(187, 100%, 50%, 0.5);
 }
 </style>
-
-

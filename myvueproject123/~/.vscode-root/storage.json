@@ -359,8 +359,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1392,10 +1391,10 @@
             "folder": "file:///home/wohlig/Documents/Project/training_irshad/myvueproject123",
             "backupPath": "/home/wohlig/Documents/Project/training_irshad/myvueproject123/~/.vscode-root/Backups/9c5fa574c5328e047f1e1ca590d5ef3a",
             "uiState": {
-                "mode": 1,
-                "x": 122,
-                "y": 276,
-                "width": 1024,
+                "mode": 0,
+                "x": 70,
+                "y": 64,
+                "width": 1057,
                 "height": 704
             }
         },

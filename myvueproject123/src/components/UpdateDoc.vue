@@ -33,7 +33,7 @@ export default {
   },
   created() {
     this.id = this.$route.params.id;
-    console.log("in created of  UpdateDoc123 ::::::::" + this.id);
+    console.log("in created of  UpdateDoc123 ::::::::", this.id);
     axios
       .get("http://localhost:3000/Product/getOneById/" + this.id)
       .then(response => {
@@ -47,7 +47,7 @@ export default {
 
   methods: {
     UpdateData(product_Arr) {
-      console.log("UpdateData of UpdateDoc:  " + this.id);
+      console.log("UpdateData of UpdateDoc456:  ", this.id);
       axios
         .put("http://localhost:3000/product/" + this.id, product_Arr)
         .then(response => {})

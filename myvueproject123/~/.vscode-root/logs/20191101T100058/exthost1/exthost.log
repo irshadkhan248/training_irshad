@@ -1,0 +1,36 @@
+[2019-11-01 10:01:01.438] [exthost] [info] extension host started
+[2019-11-01 10:01:01.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2019-11-01 10:01:01.464] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-11-01 10:01:01.491] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:javascript"}
+[2019-11-01 10:01:01.491] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0/out/src/extension
+[2019-11-01 10:01:01.506] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:javascript"}
+[2019-11-01 10:01:01.506] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode
+[2019-11-01 10:01:01.568] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-11-01 10:01:01.568] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-11-01 10:01:01.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-11-01 10:01:01.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-11-01 10:01:01.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-11-01 10:01:01.591] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-11-01 10:01:01.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-11-01 10:01:01.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-11-01 10:01:01.636] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info {"startup":true,"extensionId":{"value":"bierner.color-info","_lower":"bierner.color-info"},"activationEvent":"*"}
+[2019-11-01 10:01:01.636] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/bierner.color-info-0.5.1/out/src/extension
+[2019-11-01 10:01:01.656] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2019-11-01 10:01:01.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-11-01 10:01:01.669] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2019-11-01 10:01:01.669] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/esbenp.prettier-vscode-2.3.0/out/extension
+[2019-11-01 10:01:01.766] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2019-11-01 10:01:01.766] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-11-01 10:01:01.789] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2019-11-01 10:01:01.789] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/knisterpeter.vscode-github-0.30.3/out/src/main
+[2019-11-01 10:01:01.881] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2019-11-01 10:01:01.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-11-01 10:01:01.914] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-11-01 10:01:01.914] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2019-11-01 10:01:02.081] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2019-11-01 10:01:02.081] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/github.vscode-pull-request-github-0.12.0/media/extension
+[2019-11-01 10:01:02.235] [exthost] [info] eager extensions activated
+[2019-11-01 10:01:23.716] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur {"startup":false,"extensionId":{"value":"octref.vetur","_lower":"octref.vetur"},"activationEvent":"onLanguage:vue"}
+[2019-11-01 10:01:23.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wohlig/.vscode/extensions/octref.vetur-0.22.6/dist/client/vueMain
+[2019-11-01 10:47:07.186] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2019-11-01 10:47:07.186] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
