@@ -10,6 +10,8 @@
     <input type="text" placeholder="Ingredients" v-model="productData.ingredients" />
     <br />
     <button v-on:click="insertData()">INSERT DOCUMENT</button>
+    <br />
+    <br />
     <!-- <button v-on:click="toaster()">TOAST</button> -->
     <table>
       <tr>
